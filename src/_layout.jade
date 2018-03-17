@@ -2,5 +2,9 @@ doctype
 html
   head
     link(rel="stylesheet" href="/main.css")
+    meta(charset="utf-8")
   body
-    != yield
+    != partial("_header")
+    #container
+      != yield
+    != partial("_footer")
