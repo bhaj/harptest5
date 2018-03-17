@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "harp server src & browser-sync start --proxy 'localhost:9000' --files 'src/**/*.jade, src/**/*.md, src/**/*.less, src/**/_data.json'"
+    "dev": "harp server src & browser-sync start --proxy 'localhost:9000' --files 'src/**/*.jade, src/**/*.md, src/**/*.less, src/**/_data.json, src/**'"
   },
   "author": "",
   "license": "ISC",
