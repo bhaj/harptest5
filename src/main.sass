@@ -1,37 +1,36 @@
-html, body, *
-   margin: 0
-   padding: 0
+@import basics
 
-html
-   background: orange
+$font:      Avenir
+$color1:    #489
+$color2:    yellow
+$color3:    green
+$color4:    orange
 
 body
-   font-family: "Helvetica"
+   font-family: $font
+   background: $color1
+   color: $color2
+
+.header 
+   background: $color3
+   display: grid
+   grid-template-columns: 1fr 1fr 1fr
+   width: 100%
    text-align: center
-   background: #f4f4f7
-   color: #444
-   margin: 0
+
+#container
+   width: 60%
+   margin: 100px auto
+   background: $color4
+   border-radius: 400px
 
 h1
    font-size: 65px
    line-height: 1.2em
    border-bottom: #CCC solid 1px
    padding: 20px 0
-   background: teal
 
 h3
    font-weight: 300
-   background: purple
-
-p 
-   color: green
-   background: yellow
-
-.header 
-   background: grey
-
-.footer
-   background: blue
-
 
 
